@@ -1,1 +1,43 @@
+body.sign-in-body {
+    
+    background-image: url(/assets/005746_christian-bothner_wwwnordnorgecom_moskenes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
+
+.container.sign-in-container {
+    
+    margin-top: 6%;
+}
+
+.card.login-card {
+    padding: 15px 20px 20px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0,0,0,.5);
+    opacity: .7;
+}
+
+img.sign-logo {
+    height:30%;
+    width:30%;
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+    opacity: 1;
+}
+
+h1.introxd {
+    
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+form.signform {
+    
+    max-width: 330px;
+    margin:auto;
+}
