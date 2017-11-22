@@ -9,7 +9,7 @@ body.sign-in-body {
 
 .container.sign-in-container {
     
-    margin-top: 6%;
+    margin-top: 4%;
 }
 
 .card.login-card {
@@ -22,7 +22,7 @@ body.sign-in-body {
 
 img.sign-logo {
     height:30%;
-    width:30%;
+    width:40%;
     padding: 0 2rem 2rem;
     margin: auto;
     display: block;
@@ -64,5 +64,5 @@ a.crtlink {
     font-size:1.2rem;
     display:block;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 12px;
 }
