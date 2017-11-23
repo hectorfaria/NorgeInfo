@@ -18,8 +18,17 @@ body {
       
 }
 
-.homecarr {
+.slide {
     
     border-style: solid;
-      border-width: 10px 10px 10px 10px;
+    border-width: 10px 10px 10px 10px;
+}
+
+h3 {
+    
+     color: firebrick;
+     text-shadow: 3px 1px black;
+     font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Rozha One', serif;
 }
