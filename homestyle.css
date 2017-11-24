@@ -72,6 +72,9 @@ h1{
     background-color: firebrick;
     color: antiquewhite;
    margin:auto;
+    display:block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .modaltitleregister {
@@ -87,4 +90,38 @@ h1{
 
 h5.modal-title  {
     margin:auto;
+}
+
+.spacearoundform {
+    padding: 2rem;
+    margin:auto;
+}
+
+.imgcenter {
+ margin:auto;              
+ display:block;
+ border-width: 5px 5px 5px 5px;
+ border-style: solid;    
+}
+
+.locationsection{
+  background-image: url(assets/pexels-photo-355416.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    padding:3rem;
+
+}
+
+.MorePaddingThird {
+    
+    padding-bottom: 2rem;
+}
+
+.nodabtn {
+    width: 81%;
+}
+
+.footerlogo {
+    padding:20px;
 }

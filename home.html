@@ -43,8 +43,8 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="jumbotron jumbotron-fluid">
-                            <div class="container">
-                                    <h1 class="display-3">Velkommen til Norge</h1>
+                            <div class="container container-fluid">
+                                    <h1 class="display-3 container-fluid">Velkommen til Norge</h1>
                                     <p class="lead">Et nytt eventyr venter på deg</p>
                                 </div>
                     </div>      
@@ -125,7 +125,59 @@
             </div>    
         </div>    
     </div>    
- </div>         
+ </div>     
+      
+<!-- THIRD PART -->      
+      
+<div class="locationsection">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="textaligned MorePaddingThird">Av Steder</h1>
+            <div class="row">
+                <div class="col-sm-12 col-lg-4">
+                    <img class="img-fluid imgcenter" src="assets/oslo-business-district-566700019-598a54e4519de2001167b58d.jpg">
+                    <div class="row">
+                        <div class="col-sm-12">
+                        <button type="button" class="btn btn-lg coolstuffbtn nodabtn" data-toggle="modal" data-target=".oslo-model-lg">Oslo</button>
+                        </div>    
+                    </div>
+                </div>
+                 <div class="col-sm-12 col-lg-4">
+                    <img class="img-fluid imgcenter" src="assets/kristiansand_fra_lufta__slideshowbilde.jpg">
+                    <div class="row">
+                        <div class="col-sm-12">
+                        <button type="button" class="btn btn-lg coolstuffbtn nodabtn" data-toggle="modal" data-target=".ksand-model-lg">Kristiansand</button>
+                        </div>    
+                    </div>
+                </div>
+                 <div class="col-sm-12 col-lg-4">
+                    <img class="img-fluid imgcenter" src="assets/2013-10-14-225545-Nordlys-over-Bryggen-i-Bergen-Gunnar-Kopperud-1624x1134-pixler.jpg">
+                    <div class="row">
+                        <div class="col-sm-12">
+                        <button type="button" class="btn btn-lg coolstuffbtn nodabtn" data-toggle="modal" data-target=".berg-model-lg">Bergen</button>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</div>      
+      
+      
+      
+<!--- footer-->
+    <footer class="footer bg-inv">
+        <div class="container-fluid"></div>
+            <div class="row">
+                <div class="col-sm-12 col-lg-3">
+                    <img class="img-fluid footerlogo" src="assets/logofooter.png">
+                </div>
+                <div class="col-sm-12 col-lg-9">
+                
+                </div>
+            </div>    
+    </footer>  
+      
       
 
 <!-- Modal -->
@@ -147,6 +199,7 @@
                 </div>
             </div> 
             <div class="row">
+                <div class="col-sm-12">
                 <div class="spacearoundform">
                 <form>
                     <div class="form-group">
@@ -155,10 +208,11 @@
                     </div>
                         <div class="form-group">
                     <label for="formGroupExampleInput2">E-mail</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                    <input type="text" class="form-control" id="formEmail" placeholder="Email">
                     </div>
                 </form>
                 </div>
+                </div>    
             </div>
         </div>
       </div>
@@ -168,6 +222,50 @@
     </div>
   </div>
 </div>
+
+<!-- Oslo modal -->
+
+<div class="modal fade oslo-model-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/reaB-rstpvc"  allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary coolstuffbtn" data-dismiss="modal">Lukk</button>
+      </div>
+        </div>
+  </div>
+</div>      
+      
+<!-- Kristiansand Modal -->
+      
+<div class="modal fade ksand-model-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tlgt7ltaDHk" frameborder="0" allowfullscreen></iframe></div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary coolstuffbtn" data-dismiss="modal">Lukk</button>
+      </div>
+        </div>
+  </div>
+</div>            
+      
+<!--- Bergen Modal -->
+      
+<div class="modal fade berg-model-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SZRg00MTEoc" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary coolstuffbtn" data-dismiss="modal">Lukk</button>
+      </div>
+        </div>
+  </div>
+</div>            
       
       
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
